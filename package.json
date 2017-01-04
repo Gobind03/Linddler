@@ -1,0 +1,25 @@
+{
+  "name": "linddler",
+  "version": "1.0.0",
+  "description": "Offline Fiddler for Linux",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "package":"",
+    "build":"electron-packager . Linddler"
+  },
+  "keywords": [
+    "JS",
+    "JS",
+    "Fiddler",
+    "Linux",
+    "Fiddler"
+  ],
+  "author": "Gobind03 <deep.gobind96@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.12.3",
+    "electron": "^1.4.12",
+    "electron-packager": "^8.4.0"
+  }
+}

@@ -1,0 +1,41 @@
+<html>
+    <head>  
+        <title>Linddler | JS Fiddler for Linux</title>
+        <meta type
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/app.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="col-lg-6 sec-html">
+            <ol class="breadcrumb pull-left">
+                <li class="active">HTML</li>
+            </ol>
+            <textarea id="html"></textarea>
+        </div>
+        <div class="col-lg-6 sec-css">
+            <ol class="breadcrumb pull-left">
+                <li class="active">CSS</li>
+            </ol>
+            <textarea id="CSS"></textarea>
+        </div>
+        <div class="col-lg-6 sec-js">
+            <ol class="breadcrumb pull-left">
+                <li class="active">Javascript</li>
+            </ol>
+            <textarea id="Javascript"></textarea>
+        </div>
+        <div id="output" class="col-lg-6 sec-output">
+            <ol class="breadcrumb pull-left">
+                <li class="active"><b>Output</b></li>
+            </ol>
+            <iframe id="Output" height="100%" width="100%" class="netframe" src=""></iframe>
+        </div>
+
+
+
+        <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
